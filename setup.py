@@ -1,29 +1,22 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2' 
-DESCRIPTION = 'My first Python package'
-LONG_DESCRIPTION = 'My first Python package with a slightly longer description'
+VERSION = '0.0.5' 
+DESCRIPTION = 'LumericPy: A Python package for Lumerical FDTD and MODE Solutions'
+LONG_DESCRIPTION = 'LumericPy is a Python package designed to facilitate the use of Lumerical FDTD and MODE Solutions software. It provides a set of tools and functions to streamline the process of simulating and analyzing photonic devices using these powerful simulation tools.'
 
 # Setting up
 setup(
        # the name must match the folder name 'verysimplemodule'
         name="lumericpy", 
         version=VERSION,
-        author="Jason Dsouza",
-        author_email="<youremail@email.com>",
+        author="Ameya Velankar",
+        author_email="<velankar@uw.edu>",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
         install_requires=["numpy","matplotlib"], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
 
-        keywords=['python', 'first package'],
-        classifiers= [
-            "Development Status :: 3 - Alpha",
-            "Intended Audience :: Education",
-            "Programming Language :: Python :: 2",
-            "Programming Language :: Python :: 3",
-            "Operating System :: MacOS :: MacOS X",
-            "Operating System :: Microsoft :: Windows",
-        ]
+        keywords=['python', 'lumerical'],
+        classifiers= []
 )
