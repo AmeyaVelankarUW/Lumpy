@@ -6,7 +6,6 @@ LONG_DESCRIPTION = 'LumericPy is a Python package designed to facilitate the use
 
 # Setting up
 setup(
-       # the name must match the folder name 'verysimplemodule'
         name="lumericpy", 
         version=VERSION,
         author="Ameya Velankar",
@@ -14,9 +13,8 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=["numpy","matplotlib"], # add any additional packages that 
-        # needs to be installed along with your package. Eg: 'caer'
+        install_requires=["numpy","matplotlib"], 
 
-        keywords=['python', 'lumerical'],
+        keywords=['python', 'lumerical','importlib','sys','lumapi'],
         classifiers= []
 )
