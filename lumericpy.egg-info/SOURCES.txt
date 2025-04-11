@@ -1,6 +1,9 @@
 setup.py
 lumericpy/__init__.py
-lumericpy/methods.py
+lumericpy/getModeData.py
+lumericpy/layoutMethods.py
+lumericpy/magneto_optics.py
+lumericpy/plotting.py
 lumericpy.egg-info/PKG-INFO
 lumericpy.egg-info/SOURCES.txt
 lumericpy.egg-info/dependency_links.txt
